@@ -1,12 +1,18 @@
 # deepLearningKnowledgeStore
-### HOW TO CREATE VIRTUAL ENV IN PYTHON   
+### HOW TO CREATE VIRTUAL ENV IN PYTHON
+
 > *virtualenv -p python3 virtual_environment_folder_name*  
  example:  
-> virtualenv -p python3 .venv
+
+```fish
+  virtualenv -p python3 .venv
+```
 ### To active virtual_env:
 
 ****
 
 virtual_environment_folder_name/bin/active  
 <sub>example:</sub>  
-> ***.venv/bin/activate***          
+```bash
+ .venv/bin/activate          
+```
