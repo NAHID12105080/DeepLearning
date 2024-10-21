@@ -20,15 +20,15 @@ flowchart TD
     A --> E(Voting Ensemble)
     
     subgraph "**Same Algorithm, Different Training Data**" 
-        style B fill:#6baed6,stroke:#1e3a8a,stroke-width:2px
-        style C fill:#6baed6,stroke:#1e3a8a,stroke-width:2px
+        style B fill:#000000,stroke:#1e3a8a,stroke-width:2px
+        style C fill:#000000,stroke:#1e3a8a,stroke-width:2px
         B
         C
     end
     
     subgraph "**Different Algorithms**" 
-        style D fill:#f9c74f,stroke:#b56800,stroke-width:2px
-        style E fill:#f9c74f,stroke:#b56800,stroke-width:2px
+        style D fill:#000000,stroke:#b56800,stroke-width:2px
+        style E fill:#000000,stroke:#b56800,stroke-width:2px
         D
         E
     end
@@ -48,15 +48,15 @@ flowchart TD
     D --> O[Custom Meta-Model]
     E --> P[Hard and Soft Voting]
     
-    style H fill:#90be6d,stroke:#005f00,stroke-width:2px
-    style I fill:#90be6d,stroke:#005f00,stroke-width:2px
-    style J fill:#f94144,stroke:#a00000,stroke-width:2px
-    style K fill:#f94144,stroke:#a00000,stroke-width:2px
-    style L fill:#f94144,stroke:#a00000,stroke-width:2px
-    style M fill:#f94144,stroke:#a00000,stroke-width:2px
-    style N fill:#f94144,stroke:#a00000,stroke-width:2px
-    style O fill:#577590,stroke:#0f4c75,stroke-width:2px
-    style P fill:#577590,stroke:#0f4c75,stroke-width:2px
+    style H fill:#000000,stroke:#005f00,stroke-width:2px
+    style I fill:#000000,stroke:#005f00,stroke-width:2px
+    style J fill:#000000,stroke:#a00000,stroke-width:2px
+    style K fill:#000000,stroke:#a00000,stroke-width:2px
+    style L fill:#000000,stroke:#a00000,stroke-width:2px
+    style M fill:#000000,stroke:#a00000,stroke-width:2px
+    style N fill:#000000,stroke:#a00000,stroke-width:2px
+    style O fill:#000000,stroke:#0f4c75,stroke-width:2px
+    style P fill:#000000,stroke:#0f4c75,stroke-width:2px
 
 ```
 ## 1. Bagging
