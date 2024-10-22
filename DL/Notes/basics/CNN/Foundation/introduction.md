@@ -9,6 +9,7 @@ Convolutional Neural Networks (CNNs) are a class of deep learning models specifi
 The core building block of CNNs is the convolution operation, which involves sliding a filter (or kernel) across the input data to produce feature maps. This operation captures local patterns(edges) in the data.
 
 **Mathematical Representation:**
+
 $$
 \text{Output}(i,j) = \sum_m \sum_n \text{Input}(i+m, j+n) \cdot \text{Filter}(m,n)
 $$
