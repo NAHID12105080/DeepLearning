@@ -47,6 +47,7 @@ A typical CNN architecture consists of the following layers:
 
 # Convolutional Neural Network (CNN) Structure
 
+![image](https://github.com/user-attachments/assets/cbdc2b34-c8ca-4f15-b48c-d9eac50a1906)
 ## 1. Convolutional Layer
 
 The **Convolutional Layer** is the core building block of a CNN. It applies filters (kernels) to the input image to detect patterns such as edges, textures, or specific features.
