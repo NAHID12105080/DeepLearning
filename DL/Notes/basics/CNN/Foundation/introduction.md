@@ -27,6 +27,7 @@ $$
 Pooling layers reduce the spatial dimensions of the feature maps, which helps decrease computational load and control overfitting. The most common type of pooling is max pooling, which takes the maximum value in each region of the feature map.
 
 **Max Pooling Operation:**
+
 $$
 \text{Output}(i,j) = \max \{\text{Input}(m,n) | (m,n) \in \text{Region}\}
 $$
@@ -73,6 +74,7 @@ For a 3x3 filter sliding over a 5x5 input:
 - **Same Padding**: Padding added such that the output size is the same as the input size.
 
 ## 3. Strides
+![image](https://github.com/user-attachments/assets/87c41efd-48c0-4718-aee5-e0e6eeb83aef)
 
 **Strides** refer to the number of pixels by which the filter moves at each step during the convolution operation.
 - **Stride of 1**: The filter moves one pixel at a time.
