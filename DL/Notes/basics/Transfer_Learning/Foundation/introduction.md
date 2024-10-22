@@ -9,11 +9,13 @@
 - **Improves Generalization**: The model benefits from features learned from diverse datasets, leading to better generalization.
 
 ## Common Transfer Learning Scenarios
+![image](https://github.com/user-attachments/assets/36ecbe51-f294-4c9a-9ece-4cffd0d0a982)
 
 1. **Fine-Tuning**: Taking a pre-trained model and training it further on a new dataset. Typically, some layers are frozen (kept untrainable) while other layers are fine-tuned.
 2. **Feature Extraction**: Using the pre-trained model as a fixed feature extractor. Here, the pre-trained layers are used to extract features, and only the final classification layer is trained.
 
 ## Steps for Transfer Learning
+![image](https://github.com/user-attachments/assets/3e6e772b-359f-4b1d-b539-51e6ea94e1e5)
 
 1. **Choose a Pre-trained Model**
    - Select a model that is pre-trained on a large dataset (e.g., **ImageNet** for image classification).
